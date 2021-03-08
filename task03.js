@@ -1,51 +1,64 @@
 
+//task 03(a)
 
-d:
-var materialcost = 20000
-var laborcost = 2000
-var totalcost = materialcost + laborcost
-console.log(totalcost) 
+var colours = []
 
-if (totalcost===laborcost + materialcost) {alert ("the cost equals")}
+colours [1] = "green"
+colours [2] = "blue"
+colours [3] = "red"
 
+console.log(colours);
 
+prompt("Please choose the starting colour name!" , )
 
-a:
-var a = 4
+colours.unshift("purple");
 
-++a
-if (++a===5) {alert("given condition for variable is true")}
+alert(colours);
 
-var b = 82
+document.write("<br>");
+//task 03(b)
 
-b++ 
+prompt("Please choose the ending colour name!" , )
 
-if (b++===83) {alert("given condition for variable is true")}
-
-var c = 12
-
-c++
-
-if (c++===13) {alert("condition1 is true")}
+colours.push ("violet");
 
 
+document.write("<br>");
+//task 03 (c)
 
-if (c===13) {alert ("condition 2 is true")}
-
-++c
-if (++c<14) {alert ("condition 3 is true")}
-
-if (c===14) {alert ("condition 4 is true")}
+colours.unshift("lightblue" ,"lightred");
 
 
+alert(colours);
+
+//task 03 (d)
+
+document.write("<br>");
+colours.shift()
+
+alert(colours);
+
+//task 03 (e)
+document.write("<br>");
+colours.pop();
+
+alert(colours);
+
+//task 03 (f)
+document.write("<br>");
+
+prompt("at which index u want to add colour?" , )
+colours[2] = "magenta";
+alert(colours);
+
+document.write("<br>");
+
+prompt("at which index u want to delete colour and how many?" , )
+
+colours.splice(2,2);
 
 
-e:
-var p = 12
-if (p>11) {alert ("true")}
+alert(colours);
 
-f:
-var p= "car"
-var q= "cat"
 
-if ("car"<"cat") {alert("car is smaller than cat")}
+

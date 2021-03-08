@@ -1,13 +1,11 @@
-var rule="Rules for naming JS variables"
+var a = [10,20,40,60,70]
+var b = [1,2,3,4,5,6,7,8,9,10]
 
-document.write(rule.bold());
-document.write("<br>");
-document.write("<br>");
-document.write("<br>");
-document.write("variable names can only contain numbers, $ and _.For example:$my_firstvariable");
-document.write("<br>");
-document.write("variable must begin with a letter, $ or _.For example:$name, _name or name.");
-document.write("<br>");
-document.write("variable names are case sensitive");
-document.write("<br>");
-document.write("varible names should not be JS keywords")
+c = b + a
+
+document.write(c);
+
+
+
+
+

@@ -1,8 +1,3 @@
-character = prompt ("what is the character?")
+a = [24, 53 , 78 , 91 , 12]
 
-if (character==="a") {alert("vowel")}
-else if (character==="e") {alert("vowel")}
-else if (character==="i") {alert("vowel")}
-else if (character==="o") {alert("vowel")}
-else if (character==="u") {alert("vowel")}
-else {alert("consonant")}
+a.find("")
