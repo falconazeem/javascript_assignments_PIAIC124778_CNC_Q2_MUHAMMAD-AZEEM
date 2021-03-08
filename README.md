@@ -1,0 +1,2 @@
+# javascript_assignments_PIAIC124778_CNC_Q2_MUHAMMAD-AZEEM
+javascript_assignments_PIAIC124778_CNC_Q2_MUHAMMAD-AZEEM
