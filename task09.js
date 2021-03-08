@@ -1,15 +1,8 @@
-var a = 3
-var b = 5
-var c = b - a
-var d = b * a
-var e = b / a
-var f = b % a
+character = prompt ("what is the character?")
 
-document.write(c);
-document.write("<br>");
-document.write(d);
-document.write("<br>");
-document.write(e);
-document.write("<br>");
-document.write(f);
-
+if (character==="a") {alert("vowel")}
+else if (character==="e") {alert("vowel")}
+else if (character==="i") {alert("vowel")}
+else if (character==="o") {alert("vowel")}
+else if (character==="u") {alert("vowel")}
+else {alert("consonant")}

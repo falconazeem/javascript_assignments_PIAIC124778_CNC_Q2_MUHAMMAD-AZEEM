@@ -1,5 +1,7 @@
-var a = 3 ;
-var b = 5 ;
-var c = a + b;
 
-document.write(c);
+number = prompt ("what is the number?")
+
+if (number>0) {alert("positive number")}
+else if (number===0) {alert("zero")}
+else if (number<0) {alert("negative number")}
+

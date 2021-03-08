@@ -1,8 +1,6 @@
-var birthYear="My birth year is 1990";
+number = prompt ("Enter the number: ")
+if (number%2===0) {alert("even number")}
+else {alert("odd number")}
 
 
-
-document.write(birthYear);
-document.write("<br>");
-document.write("Data type of my declared variable is number");
 
